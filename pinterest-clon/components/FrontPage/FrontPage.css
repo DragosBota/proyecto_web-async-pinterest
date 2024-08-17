@@ -1,0 +1,148 @@
+section{
+  padding: 20px;
+}
+h2{
+  text-align: center;
+  font-size: 42px;
+  font-weight: 500;
+}
+
+/*Vamos a darle estilos al topGrid*/
+
+#topGrid{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: 258px;
+ padding: 30px 20px;
+ gap: 10px;
+}
+
+#post1{
+  background-image: url(https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmFpbHN8ZW58MHx8MHx8fDA%3D);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-end;
+  font-size: 28px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#post2{
+  background-image: url(https://images.unsplash.com/photo-1601985705806-5b9a71f6004f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGxhbnRzfGVufDB8fDB8fHww);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-end;
+  font-size: 28px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#post3{
+  background-image: url(https://images.unsplash.com/photo-1703782997454-8eb0d4d94e9c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvb2RlbiUyMGhvdXNlfGVufDB8fDB8fHww);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:flex-end;
+  font-size: 28px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#topGridBtn{
+  height: 40px;
+  width: fit-content;
+  padding: 8px 12px;
+  margin-top: 14px;
+  border: none;
+  background-color: #E9E9E9;
+  color: #111111;
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#topGridBtn:hover{
+  transition: all 0.4s ease-in-out 0s;
+  background-color: #d47785;
+}
+
+/*Vamos a darle estilos a buttomGrid*/
+h3{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#buttomGrid > ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-rows: 120px;
+  gap: 10px;
+}
+
+#buttomGrid > ul > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: whitesmoke;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+#buttomGrid > ul > li:hover{
+  filter: brightness(0.5);
+}
+
+#interest1{background-image: url(https://images.unsplash.com/photo-1601758124096-1fd661873b95?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG9nc3xlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#interest2{background-image: url(https://plus.unsplash.com/premium_photo-1676668704725-1fffb5ef672a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGFydHxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#interest3{background-image: url(https://images.unsplash.com/photo-1662751283562-ba2ed2f45855?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hcXVpbGxhamV8ZW58MHx8MHx8fDA%3D);}
+
+#interest4{background-image: url(https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1ZXByaW50c3xlbnwwfHwwfHx8MA%3D%3D);}
+
+#interest5{background-image: url(https://images.unsplash.com/photo-1657434743746-8264509ea3fd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnJpY29sYWplfGVufDB8fDB8fHww);}
+
+#interest6{background-image: url(https://media.istockphoto.com/id/1457411409/es/foto/alimentos-ricos-en-prote%C3%ADnas-saludables.webp?b=1&s=612x612&w=0&k=20&c=nNAxPSh3Vf9CsgWOiAaIdd9DpoFFaJ644jujlMWrJ9I=);}
+
+#interest7{background-image: url(https://media.istockphoto.com/id/1291649034/es/foto/maquillaje-interior-moderno-con-sof%C3%A1-azul-oscuro-mesa-y-decoraci%C3%B3n-en-la-sala-de-estar.webp?b=1&s=612x612&w=0&k=20&c=8rTS1MwfOwqwRjUCutVSJ-36Y2xgWRkqdOee4oB6hwU=);}
+
+#interest8{background-image: url(https://images.unsplash.com/photo-1630750796085-5fa9d4dd2818?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGZhc2hpb24lMjBjbG90aGVzfGVufDB8fDB8fHww);}
+
+#interest9{background-image: url(https://images.unsplash.com/photo-1603029084766-3ddc1c5c7e94?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cXVvdGVzfGVufDB8fDB8fHww);}
+
+#interest10{background-image: url(https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE0fHx0YXR0b298ZW58MHx8MHx8fDA%3D);}
+
+/*Vamos a introducir todos los mediaQueries*/
+@media (max-width: 680px){
+  #topGrid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 158px);
+    padding: 30px 20px;
+    gap: 10px;
+  }
+}
